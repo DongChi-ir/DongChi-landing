@@ -57,7 +57,7 @@ export default function HeroHome() {
             data-aos="zoom-y-out"
             data-aos-delay={600}
           >
-            <Image src={Phone} alt="phone-image"/>
+            <Image src={Phone} alt="phone-image" className="mx-auto"/>
           </div>
         </div>
       </div>
