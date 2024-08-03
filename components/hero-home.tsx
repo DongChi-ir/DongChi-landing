@@ -75,12 +75,11 @@ export default function HeroHome() {
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-lg text-gray-700"
+                className="mb-8 text-lg text-gray-700 font-IranYekanBold"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Simple is a modern website builder powered by AI that changes
-                how companies create user interfaces together.
+                سلام این یک متن برای تست فونت ایران یکان است
               </p>
               <div className="relative">
                 <div
