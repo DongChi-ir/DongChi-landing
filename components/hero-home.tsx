@@ -1,6 +1,7 @@
 import Image from "next/image";
 import PageIllustration from "@/components/page-illustration";
 import Phone from "@/public/images/phone.png";
+import MarketDownloadButton from "@/components/landing/MarketDownloadButton";
 export default function HeroHome() {
   return (
     <section className="relative">
@@ -9,44 +10,28 @@ export default function HeroHome() {
         <div className="pb-12 pt-32 md:pb-20 md:pt-40">
           <div className="pb-12 text-center md:pb-16">
             <h1
-              className="mb-6 text-5xl font-bold md:text-6xl"
+              className="mb-6 text-4xl sm:text-5xl font-IranYekanBold md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              The website builder you're <br className="max-lg:hidden" />
-              looking for
+              دنگ چی یار همیشگی مسافرت هات
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
-                className="mb-8 text-lg text-gray-700 font-IranYekanBold"
+                className="mt-5 mb-8 text-[16px] leading-loose sm:text-lg text-gray-700 font-IranYekanBold"
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                سلام این یک متن برای تست فونت ایران یکان است
+                به کمک دنگ چی میتونی هرجا خواستی کارت بکشی و بعدش نگران نباشی که پولات کجا میره چون برنامه دقیق برات دنگ ها رو حساب میکنه و بین دوستات تقسیم میکنه
               </p>
               <div className="relative">
                 <div
-                  className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
+                  className="mx-auto max-w-xs flex flex-col gap-y-6 sm:flex-row sm:max-w-none sm:justify-center sm:gap-x-5 "
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
-                    className="btn group mb-4 w-full bg-gradient-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
-                  >
-                    <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
-                      <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
-                      </span>
-                    </span>
-                  </a>
-                  <a
-                    className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
-                    href="#0"
-                  >
-                    Learn More
-                  </a>
+                  <MarketDownloadButton buttonType="cafeBazaar"/>
+                  <MarketDownloadButton buttonType="myket"/>
                 </div>
               </div>
             </div>
