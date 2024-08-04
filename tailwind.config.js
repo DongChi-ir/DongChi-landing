@@ -10,6 +10,10 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],
+        IranYekanBold:"IRANYekanBold",
+        IranYekanExtraBold:"IRANYekanExtraBold",
+        IranYekanMedium:"IRANYekanMedium",
+        IranYekanRegular:"IRANYekanRegular",
       },
       fontSize: {
         xs: ["0.75rem", { lineHeight: "1.5" }],

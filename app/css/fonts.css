@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'IRANYekanExtraBold';
+    src: url('../../public/fonts/IRANYekanXFaNum-ExtraBold.eot');
+    src: url('../../public/fonts/IRANYekanXFaNum-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/IRANYekanXFaNum-ExtraBold.woff2') format('woff2'),
+    url('../../public/fonts/IRANYekanXFaNum-ExtraBold.woff') format('woff'),
+    url('../../public/fonts/IRANYekanXFaNum-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekanRegular';
+    src: url('../../public/fonts/IRANYekanXFaNum-Regular.eot');
+    src: url('../../public/fonts/IRANYekanXFaNum-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/IRANYekanXFaNum-Regular.woff2') format('woff2'),
+    url('../../public/fonts/IRANYekanXFaNum-Regular.woff') format('woff'),
+    url('../../public/fonts/IRANYekanXFaNum-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekanMedium';
+    src: url('../../public/fonts/IRANYekanXFaNum-Medium.eot');
+    src: url('../../public/fonts/IRANYekanXFaNum-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/IRANYekanXFaNum-Medium.woff2') format('woff2'),
+    url('../../public/fonts/IRANYekanXFaNum-Medium.woff') format('woff'),
+    url('../../public/fonts/IRANYekanXFaNum-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekanBold';
+    src: url('../../public/fonts/IRANYekanXFaNum-Bold.eot');
+    src: url('../../public/fonts/IRANYekanXFaNum-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../../public/fonts/IRANYekanXFaNum-Bold.woff2') format('woff2'),
+    url('../../public/fonts/IRANYekanXFaNum-Bold.woff') format('woff'),
+    url('../../public/fonts/IRANYekanXFaNum-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
