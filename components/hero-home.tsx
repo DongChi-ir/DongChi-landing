@@ -14,7 +14,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              دنگ چی یار همیشگی مسافرت هات
+              دنگ‌چی,  یار همیشگی مسافرت هات
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
