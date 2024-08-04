@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",  // <=== enables static exports
+  basePath: "/DongChi-landing",
+  output: "export",
   reactStrictMode: true,
 };
 
