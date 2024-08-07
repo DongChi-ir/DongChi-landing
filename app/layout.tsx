@@ -23,8 +23,35 @@ export default function RootLayout({
       <body
         className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
-        <div className="flex min-h-screen overflow-hidden flex-col h-screen overflow-hidden supports-[overflow:hidden]:overflow-hidden">
+        <div className="flex min-h-screen flex-col h-screen overflow-hidden supports-[overflow:hidden]:overflow-hidden">
           {children}
+          {/* This font is considered a proprietary software. To gain information
+          about the laws regarding the use of these fonts, please visit
+          www.fontiran.com
+          --------------------------------------------------------------------------------------
+          This set of fonts are used in this project under the license:
+          (9M1VS5DP)
+          -------------------------------------------------------------------------------------- */}
+          <a
+            style={{
+              position: "absolute",
+              bottom: 10,
+              left: 10,
+              width: 50,
+              height: 50,
+            }}
+            target="_blank"
+            href="https://fontiran.com/license/9M1VS5DP"
+          >
+            <div style={{ width: 123, fontSize: 10 }}>
+              <img
+                src="https://fontiran.com/storage/uploads/images/2023/1/badge2-minjcHOH8.png"
+                width="50"
+                height="50"
+                alt="فونت ایران‌یکان"
+              />
+            </div>
+          </a>
         </div>
       </body>
     </html>
